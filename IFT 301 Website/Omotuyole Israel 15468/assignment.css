@@ -1,0 +1,131 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f7fb;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+header {
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0rem;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.assignment {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    padding: 25px;
+    margin-bottom: 40px;
+}
+
+.assignment-title {
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: black;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+ol {
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+.architect{
+    margin-top: 15px;
+}
+
+.php-section{
+    background-color: black;
+    color: white;
+}
+
+.php-text{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.php-image{
+    width: 100%;
+    border-radius: 30px;    
+}
+
+.new-header{
+    background-image: linear-gradient(to right, #ffc371, #ff5f6d);
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.new-title{
+    color: black;
+}
+
+.server-card {
+  background-image: linear-gradient(to right, #ffc371, #ff5f6d);
+  color: #000000;
+  border-radius: 14px;
+  padding: 25px;
+  margin: 25px 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.server-card h2 {
+  color: black;
+  border-bottom: 2px solid black;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.server-box {
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+.server-box h3 {
+  color: black;
+  margin-bottom: 8px;
+}
+
+.server-box p {
+  line-height: 1.8;
+  margin-bottom: 12px;
+}

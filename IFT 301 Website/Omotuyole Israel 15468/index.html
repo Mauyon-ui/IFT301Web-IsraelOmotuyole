@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application Development Assignments</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+    <header>
+        <h1>Web Application Development Assignments</h1>
+    </header>
+
+    <main>
+        <section class="assignment">
+            <h2 class="assignment-title">Assignment 1: Explain the Concept of MVT and MVC</h2>
+            <h3>1. Model-View-Template (MVT)</h3>
+            <p>
+                MVT is a design pattern similar to MVC, mainly used by Django (Python framework).The major difference is that Django handles most of the Controller logic internally, and developers mainly focus on the Model, View, and Template.
+            </p>
+            <ul>
+                <li><b>Model:</b> Defines the structure of the data and handles all database operations.</li>
+                <li><b>View:</b> Contains the logic that determines what data is displayed and how.</li>
+                <li><b>Template:</b> The user interface written in HTML that displays the data.</li>
+            </ul>
+            <p>Example: In Django, models handle database tables, views manage logic, and templates show the data to users.</p>
+
+            <h3>2. Model-View-Controller (MVC)</h3>
+            <p>
+                The <b>MVC</b> pattern is a popular design structure used in frameworks like <b>Laravel</b>, <b>Ruby on Rails</b>, and <b>ASP.NET</b>.
+                It separates the application into three main layers:
+            </p>
+            <ul>
+                <li><b>Model:</b> Handles data and business logic.</li>
+                <li><b>View:</b> Displays the user interface.</li>
+                <li><b>Controller:</b> It acts as a bridge between the Model and View, processing user input and updating data accordingly.</li>
+            </ul>
+            <p>Example: In Laravel, the controller manages requests, the model connects to the database, and the view shows data.</p>
+        </section>
+
+        <section class="assignment">
+            <h2 class="assignment-title">Assignment 2: Types of Client–Server Architecture</h2>
+            <p>
+                <b>What Is Client-Server Architecture?</b> <br>A client-server architecture is a system that hosts, provides, and manages most of the resources and services that the client requests. This approach, also known as the network computing model or client-server network, involves the delivery of all requests and services across a network.
+            </p>
+            <h3>Types of Client–Server Architecture</h3>
+            <ul class="unordered">
+                <li class="architect">
+                    <b>Two-Tier Architecture:</b><br>
+                    This is the simplest type. The client communicates directly with the server.<br>
+                    <em>Example: </em> A web browser (client) sending requests directly to a database server.
+                </li>
+                <li class="architect">
+                    <b>Three-Tier Architecture:</b><br>
+                    It includes three layers i.e <b>Client, Application Server, and Database Server</b>.<br>
+                    The middle layer (application server) handles business logic between the client and database.<br>
+                    <em>Example: </em> A web app where the browser talks to a backend (like Django or Node.js), which then connects to a database.
+                </li>
+                <li class="architect">
+                    <b>N-Tier (Multi-Tier) Architecture:</b><br>
+                    It extends the three-tier model by adding more layers for services like authentication, caching, or APIs.<br>
+                    <em>Example: </em> Enterprise-level systems or cloud-based applications with multiple service layers.
+                </li>
+                <li class="architect">
+                    <b>Peer-to-Peer (P2P) Architecture:</b><br>
+                    Unlike traditional client-server models, every node (computer) acts as both a client and a server.<br>
+                    <em>Example: </em> File-sharing systems like BitTorrent or blockchain networks.
+                </li>
+                <li class="architect">
+                    <b>Distributed Architecture:</b> <br>
+                    In a distributed system, multiple servers work together as a network of servers to serve client requests.
+                    Each server may handle different tasks or duplicate the same service for reliability. <br>
+                    <em>Example: </em> Google Search uses distributed servers across the world to handle billions of requests efficiently.
+                </li>
+            </ol>
+            <p>
+            <b>Note:</b>  
+            The choice of architecture depends on the application's scale, security needs, and performance goals. Modern web applications often use <b>three-tier</b> or <b>multi-tier</b> models for better scalability and maintenance.
+            </p>
+        </section>
+    </main>
+</body>
+</html>

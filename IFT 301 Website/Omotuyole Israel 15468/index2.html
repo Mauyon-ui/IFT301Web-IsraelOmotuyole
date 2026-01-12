@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application Development Assignments</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+    <header class="new-header">
+        <h1 class="new-title">Web Application Development Assignments 2</h1>
+    </header>
+    <main>
+        <section id="assignment3" class="server-card">
+            <h2>Assignment 3: WAMP, LAMP, and XAMPP Servers</h2>
+            <p>
+                In web application development, local servers such as <b>WAMP</b>, <b>LAMP</b>, and <b>XAMPP</b> 
+                are software packages that allow developers to host and test websites on their personal computers before uploading them to a live server. 
+                They provide all the necessary components (like Apache, PHP, and MySQL) that a real web server would use.
+            </p>
+            
+            <div class="server-box">
+                <h3>1. WAMP Server</h3>
+                <p><b>History:</b><br>
+                    The <b>WAMP Server</b> stands for <b>Windows, Apache, MySQL, and PHP</b>. 
+                    It was created in the early 2000s to help web developers on the Windows platform build dynamic websites locally without needing an online server. 
+                    WAMP combined all essential web development tools into one package i.e Apache for hosting, MySQL for managing databases, and PHP for server-side scripting — 
+                    providing a convenient environment for developers using Windows systems.
+                </p>
+                <p><b>Advantages:</b><br>
+                    1. <b>Simple Installation and Setup:</b> WAMP has an installer that configures Apache, MySQL, and PHP automatically, 
+                    making it easy to start local development without advanced technical knowledge.<br>
+                    2. <b>User-Friendly Interface:</b> It includes a graphical control panel that allows users to start, stop, or restart server services easily.<br>
+                    3. <b>Windows Compatibility:</b> It’s designed specifically for Windows users, ensuring smooth integration with the operating system.<br>
+                    4. <b>Ideal for Beginners:</b> Because it’s lightweight and easy to manage, WAMP is perfect for students or beginner PHP developers testing small web projects.
+                </p>
+                <p><b>Disadvantages:</b><br>
+                    1. <b>Limited to Windows:</b> WAMP cannot be used natively on Linux or macOS, reducing flexibility for developers on other systems.<br>
+                    2. <b>Not for Production Use:</b> WAMP is designed for local development and lacks the security and optimization needed for live servers.<br>
+                    3. <b>Port Conflicts:</b> Sometimes WAMP conflicts with other Windows services (like Skype) that use the same ports.<br>
+                    4. <b>Performance Limitations:</b> WAMP may run slower when handling heavy traffic or complex database operations compared to Linux servers.
+                </p>
+            </div>
+
+            <div class="server-box">
+                <h3>2. LAMP Server</h3>
+                <p><b>History:</b><br>
+                    The <b>LAMP Server</b> stands for <b>Linux, Apache, MySQL, and PHP</b>. 
+                    It was developed in the late 1990s during the rise of open-source software. 
+                    LAMP quickly became a favorite for developers because it provided a stable, secure, and completely free platform for building web applications. 
+                    It’s often considered the backbone of early web development, powering websites like WordPress, Joomla, and Drupal. 
+                    The LAMP stack has evolved over time, with many variations (like LEMP, which replaces Apache with Nginx).
+                </p>
+                <p><b>Advantages:</b><br>
+                    1. <b>Open Source and Free:</b> All components of LAMP are free and open-source, making it cost-effective for individuals and organizations.<br>
+                    2. <b>High Stability and Security:</b> Linux and Apache are known for their reliability and b security mechanisms, suitable for long-term server hosting.<br>
+                    3. <b>Performance and Flexibility:</b> LAMP servers can handle large-scale web applications and can be customized for various environments.<br>
+                    4. <b>Cross-Platform Hosting:</b> Applications built on LAMP can be easily deployed on cloud or dedicated Linux servers with minimal modification.
+                </p>
+                <p><b>Disadvantages:</b><br>
+                    1. <b>Requires Linux Knowledge:</b> Users need to understand Linux commands to install and manage LAMP effectively.<br>
+                    2. <b>Less User-Friendly for Beginners:</b> Unlike WAMP, LAMP does not have a graphical control panel by default.<br>
+                    3. <b>Manual Configuration:</b> Setting up and troubleshooting can be time-consuming for new users.<br>
+                    4. <b>Software Compatibility:</b> Some Windows-specific applications may not run smoothly in a LAMP environment.
+                </p>
+            </div>
+
+            <div class="server-box">
+                <h3>3. XAMPP Server</h3>
+                <p><b>History:</b><br>
+                    The <b>XAMPP Server</b> was introduced by <b>Apache Friends</b> in 2002 to create a cross-platform local server environment. 
+                    Its name stands for <b>Cross-platform (X), Apache, MariaDB (formerly MySQL), PHP, and Perl</b>. 
+                    XAMPP’s goal was to make web development easier by supporting multiple operating systems — Windows, Linux, and macOS — 
+                    and including extra tools like phpMyAdmin for database management and FileZilla for FTP services. 
+                    It is one of the most versatile local servers available today.
+                </p>
+                <p><b>Advantages:</b><br>
+                    1. <b>Cross-Platform Support:</b> Works on Windows, Linux, and macOS, giving developers flexibility to use any operating system.<br>
+                    2. <b>Easy to Install and Use:</b> XAMPP provides an all-in-one installer and control panel for managing Apache, MySQL, PHP, and other tools easily.<br>
+                    3. <b>Includes Extra Tools:</b> Comes with preinstalled tools such as FileZilla, phpMyAdmin, Mercury Mail, and Tomcat, expanding its functionality.<br>
+                    4. <b>Great for Testing:</b> Allows quick setup of WordPress, Joomla, and other PHP-based web apps for testing and learning.
+                </p>
+                <p><b>Disadvantages:</b><br>
+                    1. <b>Security Risks:</b> XAMPP is designed for local use and is not hardened for production environments, making it unsafe for live hosting.<br>
+                    2. <b>High Resource Usage:</b> It uses more system memory and CPU compared to lighter stacks, especially when multiple modules are active.<br>
+                    3. <b>Port Conflicts:</b> Can conflict with other software running on the same ports (e.g., Skype, IIS).<br>
+                    4. <b>Not Ideal for Advanced Developers:</b> Since it’s meant for beginners, it lacks advanced customization options needed in professional setups.
+                </p>
+            </div>
+
+            <p><b>Summary:</b><br>
+                WAMP, LAMP, and XAMPP servers all provide a complete environment for developing and testing dynamic web applications. 
+                WAMP is best for Windows users, LAMP is preferred by professionals for stability and production use, 
+                while XAMPP is the most flexible for beginners across all platforms.
+            </p>
+        </section>        
+    </main>    
+</body>
+</html>
