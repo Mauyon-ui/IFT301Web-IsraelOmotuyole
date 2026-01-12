@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application Development Assignment</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f4f7fb;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+
+        .new-header{
+            background-image: linear-gradient(to bottom right, #305170, #6DFC6B);
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .new-title{
+            color: #ffffff;
+            font-size: 2em;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .server-card {
+            background-image: linear-gradient(to bottom right, #305170, #6DFC6B);
+            color: #ffffff;
+            border-radius: 14px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .server-card h2 {
+            color: #ffffff;
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+
+        .server-box {
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 18px;
+            margin-bottom: 20px;
+            color: black;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background: white;
+            color: black;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-image: linear-gradient(to bottom right, #305170, #6DFC6B);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header class="new-header">
+        <h1 class="new-title">Web Application Development Assignment</h1>
+    </header>
+
+    <main>
+        <section id="assignment1" class="server-card">
+            <h2>1. Differences between POST and GET.</h2>
+
+            <div class="server-box">
+                <p><b>GET Method:</b><br>
+                The GET method is used to request data from a server by sending the request information through the URL. It is mainly used for retrieving information rather than sending large or sensitive data. Because the data is visible in the address bar, GET is mostly suitable for simple requests such as searching, filtering, or loading a webpage. Browsers often cache GET requests, making repeated access faster, but this also makes it less secure for confidential data.</p>
+
+                <p><b>POST Method:</b><br>
+                The POST method is used when sending data to a server, especially when handling sensitive, long, or encrypted information. Unlike GET, POST hides the data inside the request body, making it invisible in the URL. POST is used for submitting forms, uploading files, and sending secure data. It is not cached by browsers, ensuring higher security and reliability when processing important information.</p>
+
+                <h3>Differences Between GET and POST</h3>
+
+                <table>
+                    <tr>
+                        <th>S/N</th>
+                        <th>GET</th>
+                        <th>POST</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>Data is visible in the URL</td>
+                        <td>Data is hidden inside the request body</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Used mainly for retrieving data</td>
+                        <td>Used for sending or submitting data</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Has size and character limitations</td>
+                        <td>No size limitation for sending data</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Less secure due to URL exposure</td>
+                        <td>More secure because data is not exposed</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section id="assignment2" class="server-card">
+            <h2>2. Differences between MySQL and MySQLi.</h2>
+
+            <div class="server-box">
+                <p><b>MySQL:</b><br>
+                MySQL is a relational database management system (RDBMS) used for storing, retrieving, and managing information in structured tables. It serves as the main storage engine for many web applications, including WordPress, Joomla, and large enterprise systems. MySQL allows developers to run queries, create tables, manage users, and control access permissions. It is known for its speed, stability, and ability to handle large datasets efficiently.</p>
+
+                <p><b>MySQLi:</b><br>
+                MySQLi (MySQL Improved) is a PHP extension used specifically for interacting with MySQL databases. It provides an improved and more secure interface compared to the older MySQL extension, which is now outdated. MySQLi supports object-oriented programming, procedural style, and prepared statements, making it safer against SQL injection. It allows PHP developers to connect to MySQL, run queries, and fetch data seamlessly.</p>
+
+                <h3>Differences Between MySQL and MySQLi</h3>
+
+                <table>
+                    <tr>
+                        <th>S/N</th>
+                        <th>MySQL</th>
+                        <th>MySQLi</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>Database system used to store and manage data</td>
+                        <td>PHP extension used to connect and interact with MySQL</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Works independently from any programming language</td>
+                        <td>Used only within PHP applications</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Does not support prepared statements (old extension)</td>
+                        <td>Supports prepared statements for better security</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Stores and processes data</td>
+                        <td>Executes queries and communicates with the database</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
